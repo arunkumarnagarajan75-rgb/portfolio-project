@@ -1,0 +1,380 @@
+body {
+    margin: 0%;
+    /* padding: 0%; */
+    overflow-x: hidden;
+  
+}
+/* .top{
+    overflow: hidden;
+    
+} */
+/* .resume1 a {
+    color: black;
+} */
+
+
+.content1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25%;       
+    height: 100vh;
+    background-color: rgb(132,149,156);
+    z-index: 1000;
+}
+.content2 {
+    
+    margin-left: 25%; 
+    width: 75%;
+}
+
+
+
+/* .profile {
+    margin-left: 30px;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+} */
+
+ /* .name { */
+    /* margin-left: 45px; */
+    /* color: white; */
+/* } */
+.flex-column a { 
+    color: white;
+ } 
+/* .home { */
+    /* background-image: url(../portfolio\ bg\ img.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
+    /* padding: 50%; */
+    /* /* width: 1550px; */
+    /* align-content: center; */ 
+    /* margin-left: 17%; */
+    /* margin-right: 1px; */
+    /* position: relative; */
+    /* height: 100vh; */
+    
+/* } */
+.himg{
+    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1000;
+}
+.name1 {
+    position: relative;
+    /* font-size: 40px; */
+    color: rgb(241, 235, 235);
+    z-index: 0;
+   text-align: center;
+   justify-content: center;
+}
+.pad{
+    padding-top: 300px;
+}
+.ani{
+    /* margin-left: 550px; */
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid black;
+    /* width: 0; */
+  animation: typing steps(30,end) forwards infinite 10s, blink 0.5s step-end infinite  
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 425px;
+    }
+}
+@keyframes blink{
+50%{
+border-color: transparent;
+}
+}
+.second {
+    padding-top: 50px;
+    /* margin-left: 268px; */
+    /* overflow: hidden;  */
+    /* background-color: rgba(128, 128, 128, 0.651); */
+    padding-bottom: 103px;
+}
+
+.abo {
+    text-align: center;
+    /* margin-left: 190px; */
+    color:rgb(38,74,115);
+}
+.para {
+    margin-top: 30px;
+    text-indent: 50px;
+    color:rgb(65, 102, 145);
+}
+.info {
+    margin-top: 120px;
+    /* display: flex; */
+}
+
+.img {
+    height: 300px;
+    width: 320px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.bio {
+    color:  rgb(38,74,115);
+    font-size: 30px;
+    margin-left: 340px;
+    margin-top: 30px;
+}
+b{
+  color:  rgb(38,74,115);  
+}
+.personal {
+    /* display: flex; */
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+/* .info4 { */
+    /* margin-left: 50px; */
+/* } */
+#education{
+    padding-top: 60px; 
+    padding-bottom: 180px;
+    overflow: hidden;
+    /* background-color: rgba(128, 128, 128, 0.651) ; */
+}
+
+.abo2{
+    text-align: center;
+    color:rgb(38,74,115) ;
+    /* margin-left: 210px; */
+    padding-bottom: 60px;
+}
+.no1 {
+    /* display: flex; */
+    text-align: center;
+    /* margin-left: 280px; */
+    margin-top: 20px;
+}
+/* .no2{
+   margin-left: 300px;
+}
+.no3{
+    margin-left: 50px;
+} */
+.eimg{
+    height: 220px;
+    width: 220px;
+    margin-left: 21px;
+}
+.eh{
+    padding-top: 40px;
+}
+.skills{
+    padding-top: 40px;
+    /* background-color: rgba(128, 128, 128, 0.651); */
+    padding-bottom: 100px;
+}
+.simg{
+    height: 60px;
+    width: 60px;
+    /* margin-left: 0px; */
+    
+}
+/* .simg1{
+    padding-top: 20px;
+   margin-left: 40px;
+   height: 70px;
+   width: 70px; 
+} */
+.skill{
+    /* display: flex; */
+    /* gap: 100px; */
+    /* margin-left: 320px; */
+    padding-top: 10px;
+}
+/* .s1{ */
+    /* display: flex; */
+   /* gap: 30px; */
+/* } */
+.sk1{
+     margin-bottom: 30px;
+}
+/* .s2{ */
+    /* display: flex; */
+    /* gap: 30px; */
+/* } */
+
+progress {
+    width: 500px;
+    height: 20px;
+}
+
+.resume1 {
+    margin-top: 30px;
+    /* margin-left: 260px; */
+}
+/* #project{
+     background-color:rgba(128, 128, 128, 0.651) ;
+} */
+.project {
+   overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 198px;
+    /* margin-left: 350px; */
+    /* display: flex; */
+    /* gap: 40px; */
+}
+
+/* .project a {
+    color: black;
+    margin-left: 35px;
+} */
+.pimg{
+    height: 180px;
+    /* width: 100px; */
+}
+.pwi{
+    width: 90%;
+}
+ /* .prob1{
+    margin-left: 20px;
+    margin-top: 60%;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    color: black;
+ }
+ .prob2{
+    margin-top: 20px;
+    position: absolute;
+    margin-top: 30px;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+ }
+ .prob3{
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+ }
+ .prob4{
+    margin-top: 100%;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+ } */
+/* .pwi{
+    width: 45%;
+ }  */
+ /* .pwi1{
+    width: 0px;
+ } */
+/* .text{ */
+    /* background-color: rgb(13,110,253); */
+/* color:white; */
+    /* text-align: center; */
+/* } */
+/* .pro1{
+    margin-right:30px ;
+}
+.pro2{
+    margin-left: 10px;
+}
+.pro3{
+    margin-left: 45px;
+}
+.pro4{
+    margin-left: 50px;
+} */
+/* button {
+    /* padding: 20px; */
+/* } */
+/* .click{
+    margin-top: 40px;
+} */
+.head {
+    text-align: center;
+    margin-top: 20px;
+}
+.head1{
+    padding-bottom: 60px;
+    /* margin-left: 820px; */
+    color:rgb(38,74,115) ;
+}
+/* #experience{
+     background-color:rgba(128, 128, 128, 0.651) ;
+} */
+.exp {
+    /* margin-left: 630px; */
+    /* display: flex; */
+    /* text-align: center; */
+    /* gap: 70px; */
+   padding-bottom: 100px;
+}
+
+.exp img{
+    height: 190px;
+   
+}
+/* #contact{
+ background-color: rgba(128, 128, 128, 0.651) ;
+ margin-left: 300px;
+} */
+/* .contact0{ */
+    /* margin-left: 300px; */
+/* } */
+/* .contact{
+    margin-left: 480px;
+} */
+/* .contact1{ */
+    /* margin-left: 200px; */
+    /* padding-bottom: 200px; */
+   
+/* }  */
+/* .location{
+    display: flex;
+}
+
+/* .ico{
+    height: 60px;
+    width: 40px;
+} */
+/* #b{ */
+    /* margin-left: 300px; */
+/* } */
+[dark-theme="dark"] body{
+    color: white;
+    background-color: black;
+}
+
+/* .box{
+    width: 900px;
+} */
+.light{
+    background-color:white;
+    color: black;
+}
+.dark {
+    background-color: rgb(132,149,156);
+    color: white;
+}
+.dark .card{
+    background-color: rgb(132,149,156);
+    color: white;
+}
+
+
+/* .btn12{
+    margin: 20% 10% 30% 40%;
+} */
